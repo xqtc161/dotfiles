@@ -12,3 +12,4 @@ My build of dwm
 - alacritty
 - picom
 - feh
+- rofi
