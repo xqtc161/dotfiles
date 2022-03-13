@@ -7,3 +7,4 @@ My build of dwm
 - Xorg
 - alacritty
 - picom
+- feh
