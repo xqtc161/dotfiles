@@ -5,7 +5,7 @@ My build of dwm
 
 
 # prequisities
-- alsamixer
+- alsa-utils
 - ncspot
 - ranger
 - Xorg
@@ -13,3 +13,5 @@ My build of dwm
 - picom
 - feh
 - rofi
+- mpv
+- pfetch
