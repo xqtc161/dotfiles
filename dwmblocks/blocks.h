@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"",		"cat /sys/class/power_supply/BAT1/status",		5,		},						 			
+	{"",		"free -m | sed 1d | sed 2d | awk '{printf "%s/%sMB\n", $1, $3}'",		1,	0},						 			
 	 
 	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
 	
@@ -9,7 +9,7 @@ static const Block blocks[] = {
 
 	{"Updates avaiable: ",	"checkupdates | wc -l", 			600,		0},
 
-	{" SHE/HER ",										}
+	{"TRANS RIGHTS",										}
 
 };
 
