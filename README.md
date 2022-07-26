@@ -4,7 +4,7 @@ My build of dwm
 ![Alt text](https://raw.githubusercontent.com/xqtc161/dotfiles/main/Screenshot.png)
 
 
-# prequisities
+# prerequisites
 - alsa-utils
 - ncspot
 - ranger
